@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="144">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32" spacing="4" margin="4" tilecount="196" columns="14">
+  <image source="tmx/tile2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzTlOglEUBlASkF5wAzKYSAMICA2TLWOrKEMHMrgwVkDJsDBOQUFBqH4KE77k5N6X+5IvFLrnnv+fZxIkSZHmJeCOLDnyvFGgGHBHlRp1GjT5CLijRZsOXXr0A+745IsB3/wwvPJ/xJjJhdsrmbN3iXe2TJnxy5zFlY4lK/7YsedwupWpnPY1D0RvMMNE2BDn6QbzkRhH+G8T2Q==
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object id="24" x="0" y="416" width="798" height="64"/>
+  <object id="17" name="LEFTWALL" x="1" y="1" width="5" height="480"/>
+  <object id="18" name="SKYWALL" x="3" y="0" width="800" height="5"/>
+  <object id="19" name="RIGHTWALL" x="795" y="3" width="5" height="480"/>
+ </objectgroup>
+ <objectgroup name="boxStatic" width="25" height="15">
+  <object id="139" x="351" y="350" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="rectangleDensity" width="25" height="15">
+  <object id="140" x="320" y="320" width="128" height="32"/>
+  <object id="142" x="320" y="224" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup name="box1Density" width="25" height="15">
+  <object id="141" x="351" y="256" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="apple2" width="25" height="15">
+  <object id="143" x="368" y="192" width="32" height="32"/>
+ </objectgroup>
+</map>

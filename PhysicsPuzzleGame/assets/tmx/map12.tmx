@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="366">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32" spacing="4" margin="4" tilecount="196" columns="14">
+  <image source="tmx/tile2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0D0KwkAQhuEU6gHUCyga0FrQC2wukG0s/Kv9Sa3nURu9gHaiB/MNzMC4bJtCyMDDbr5MJpskSV11/Xf14JBhgCFSUWZHnCTXPmf2qczom0xnaGnuzX4SyezcXHjptbmdEb7DmeeySOaC3tiaBddaOiNPfs/nzf4c3Iut9n/Yc40wxgprbLDAUtjzxb5De+fBfc3Ld00xwx4HFHjjg13km8Lzb6XvJdkFVzPjhjuaaFWwNvDAEx10K1jb+AJeBjG9
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object id="24" x="0" y="416" width="798" height="64"/>
+  <object id="17" name="LEFTWALL" x="1" y="1" width="5" height="480"/>
+  <object id="18" name="SKYWALL" x="3" y="0" width="800" height="5"/>
+  <object id="19" name="RIGHTWALL" x="795" y="3" width="5" height="480"/>
+ </objectgroup>
+ <layer name="Слой тайлов 2" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzbcNgDAUAFEvTWyJLRhoiS2xJY7GDfEbSz7p1aeUzWZ+Dlx48BEgFH5EiJEgRYZc+FGghEaFGo3wo0WHHgNGTMKPGQtWbNhxCD9OXLjx4MUn/DC5H5gWFbs=
+  </data>
+ </layer>
+ <objectgroup name="rectangleSmall" width="25" height="15">
+  <object id="356" x="481" y="384" width="64" height="32"/>
+  <object id="357" x="448" y="352" width="64" height="32"/>
+  <object id="358" x="513" y="352" width="64" height="32"/>
+  <object id="359" x="481" y="320" width="64" height="32"/>
+  <object id="360" x="416" y="320" width="64" height="32"/>
+  <object id="361" x="449" y="288" width="64" height="32"/>
+  <object id="362" x="513" y="288" width="64" height="32"/>
+  <object id="363" x="481" y="256" width="64" height="32"/>
+ </objectgroup>
+ <objectgroup name="apple2" width="25" height="15">
+  <object id="364" x="495" y="224" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="rectangle2Static" width="25" height="15">
+  <object id="365" x="224" y="384" width="192" height="32"/>
+ </objectgroup>
+</map>

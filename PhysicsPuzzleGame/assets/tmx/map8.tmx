@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="242">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32" spacing="4" margin="4" tilecount="196" columns="14">
+  <image source="tmx/tile2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0LkKAjEQgOEt1AdQX8ATtPFa0MYTTOMJu41n69la6PPYqQ+gvpy/kMAYtLQQDHxkNpnJJOs4//Efvz3aiCGOBJJIIQ2FPQ56bafz22LP1Jo1U5sWPTzkkEcBRZTgwhe15mxP853XfkqvKV3rWu+oooY6GmiiJc70rViJb9lH7ivrHR100UMfAwxFzdG6vy9i70Ms/8HTCGNMMMUMc3FfM1+sumecQdbKnWuy3wJLrLDGBts3972/eUsZFSt3q51wRhChL8wBXHFDBNEvzGE8AAngL1Y=
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object id="24" x="0" y="416" width="798" height="64"/>
+  <object id="17" name="LEFTWALL" x="1" y="1" width="5" height="480"/>
+  <object id="18" name="SKYWALL" x="3" y="0" width="800" height="5"/>
+  <object id="19" name="RIGHTWALL" x="795" y="3" width="5" height="480"/>
+ </objectgroup>
+ <layer name="Слой тайлов 2" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKBB/FAnADEiQTUmQKxGZR9GIiPkGBHLhDnAXE+EB+Eii0F4mUkmDFUAACN2gZp
+  </data>
+ </layer>
+ <objectgroup name="rectangleStatic" width="25" height="15">
+  <object id="222" x="320" y="384" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup name="box1Density" width="25" height="15">
+  <object id="238" x="544" y="352" width="64" height="64"/>
+  <object id="239" x="544" y="288" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="rectangle2" width="25" height="15">
+  <object id="230" x="30" y="320" width="192" height="32"/>
+  <object id="236" x="512" y="192" width="192" height="32"/>
+ </objectgroup>
+ <objectgroup name="box1" width="25" height="15">
+  <object id="231" x="159" y="256" width="64" height="64"/>
+  <object id="232" x="30" y="256" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="rectangle2DensityVertical" width="25" height="15">
+  <object id="234" x="512" y="224" width="32" height="192"/>
+  <object id="235" x="672" y="224" width="32" height="192"/>
+ </objectgroup>
+ <objectgroup name="apple2" width="25" height="15">
+  <object id="237" x="671" y="160" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="circle" width="25" height="15">
+  <object id="240" x="30" y="352" width="64" height="64"/>
+  <object id="241" x="159" y="352" width="64" height="64"/>
+ </objectgroup>
+</map>

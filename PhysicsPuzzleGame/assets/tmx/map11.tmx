@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="352">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32" spacing="4" margin="4" tilecount="196" columns="14">
+  <image source="tmx/tile2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0DkKwkAUxnEL9QDqBeLWurauEBtXSBrX1rW10PPYqQdQL+e/eA+GEKdLIeSDHxPewMebJBJx4vx3HORRQBEllMUAF1xlfoYr9M6xdGgqqKKGOhpoSodv9Gm3J3xj9qtD00IbHXTRQ9/oNfv027xzLR2aIUYYY4IpZtKlnbfA/uadZ+nQd86xwBIrrLER+p9072fIzNahe22xwx4HHHESwb0/ITNbxx0PpJCO4EzihTeyyEVwZvAFazIvWw==
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object id="24" x="0" y="416" width="798" height="64"/>
+  <object id="17" name="LEFTWALL" x="1" y="1" width="5" height="480"/>
+  <object id="18" name="SKYWALL" x="3" y="0" width="800" height="5"/>
+  <object id="19" name="RIGHTWALL" x="795" y="3" width="5" height="480"/>
+ </objectgroup>
+ <layer name="Слой тайлов 2" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALqgGogrgHiWhqa1wnEXUDcjSR2EIgPkWkHNvOGAwAA0ngHqA==
+  </data>
+ </layer>
+ <layer name="Слой тайлов 3" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILBDZyB2IXGdgQCcRCN7aAnAAAqbwEr
+  </data>
+ </layer>
+ <objectgroup name="rectangleVerticalDensitySmall" width="25" height="15">
+  <object id="321" x="192" y="352" width="32" height="64"/>
+  <object id="324" x="256" y="352" width="32" height="64"/>
+  <object id="326" x="224" y="256" width="32" height="64"/>
+  <object id="328" x="401" y="256" width="32" height="64"/>
+  <object id="330" x="368" y="352" width="32" height="64"/>
+  <object id="331" x="435" y="352" width="32" height="64"/>
+  <object id="333" x="576" y="256" width="32" height="64"/>
+  <object id="335" x="544" y="352" width="32" height="64"/>
+  <object id="336" x="608" y="352" width="32" height="64"/>
+ </objectgroup>
+ <objectgroup name="rectangle2" width="25" height="15">
+  <object id="327" x="224" y="224" width="192" height="32"/>
+  <object id="332" x="417" y="224" width="192" height="32"/>
+ </objectgroup>
+ <objectgroup name="rectangleStatic" width="25" height="15">
+  <object id="342" x="47" y="384" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup name="rectangle1DensityVertical" width="25" height="15">
+  <object id="343" x="15" y="288" width="32" height="128"/>
+ </objectgroup>
+ <objectgroup name="rectangleDensitySmall" width="25" height="15">
+  <object id="345" x="207" y="320" width="64" height="32"/>
+  <object id="346" x="385" y="320" width="64" height="32"/>
+  <object id="347" x="559" y="320" width="64" height="32"/>
+ </objectgroup>
+ <objectgroup name="boxSmallDensity" width="25" height="15">
+  <object id="348" x="353" y="192" width="32" height="32"/>
+  <object id="349" x="448" y="192" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="rectangle1" width="25" height="15">
+  <object id="350" x="353" y="160" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup name="apple2" width="25" height="15">
+  <object id="351" x="398" y="128" width="32" height="32"/>
+ </objectgroup>
+</map>

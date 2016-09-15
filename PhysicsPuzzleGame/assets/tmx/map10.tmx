@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="314">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32" spacing="4" margin="4" tilecount="196" columns="14">
+  <image source="tmx/tile2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztkLkNAjEQRTcACgAaWCSogBbsBuyUK+aKCLgKANogAwoAmuNZsqXRyIJoA6Qd6Wm+5/LYRVFbbf9tBkroRW2hD4Oot7CLsU2sMSJXfulP5kQuaC/OUqfZTtUZ1Z/0UL3DZWZZkfNKW9Un75Cz5DvkbloHf1Vx/6Ne/8ceDnCM58AIxqIm7f3IxAITmMJM9ae7TnCGi9hxDovM3u9MLLCEFaxV/w3u0IRWBb4BT3hBB7oV+DZ8ABb/MjY=
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object id="24" x="0" y="416" width="798" height="64"/>
+  <object id="17" name="LEFTWALL" x="1" y="1" width="5" height="480"/>
+  <object id="18" name="SKYWALL" x="3" y="0" width="800" height="5"/>
+  <object id="19" name="RIGHTWALL" x="795" y="3" width="5" height="480"/>
+ </objectgroup>
+ <layer name="Слой тайлов 2" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALqgmogrgHiWjRxVyB2I1MvDCwH4hVA3AnEXUDcDRU3BWIzIA4G4hAcepcC8TI0vTDzDhJw11ADAIU/DGw=
+  </data>
+ </layer>
+ <objectgroup name="boxSmallDensity" width="25" height="15">
+  <object id="285" x="320" y="384" width="32" height="32"/>
+  <object id="286" x="480" y="384" width="32" height="32"/>
+  <object id="298" x="320" y="320" width="32" height="32"/>
+  <object id="299" x="480" y="320" width="32" height="32"/>
+  <object id="300" x="320" y="288" width="32" height="32"/>
+  <object id="301" x="480" y="288" width="32" height="32"/>
+  <object id="302" x="320" y="256" width="32" height="32"/>
+  <object id="303" x="480" y="256" width="32" height="32"/>
+  <object id="304" x="320" y="192" width="32" height="32"/>
+  <object id="305" x="480" y="192" width="32" height="32"/>
+  <object id="306" x="320" y="160" width="32" height="32"/>
+  <object id="307" x="480" y="160" width="32" height="32"/>
+ </objectgroup>
+ <layer name="Слой тайлов 3" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALqAE0g1qKxHeZAbEFjO4YDAAAFHwDD
+  </data>
+ </layer>
+ <objectgroup name="rectangleStaticSmall" width="25" height="15">
+  <object id="287" x="320" y="352" width="64" height="32"/>
+  <object id="288" x="448" y="352" width="64" height="32"/>
+ </objectgroup>
+ <objectgroup name="apple2" width="25" height="15">
+  <object id="309" x="401" y="96" width="32" height="32"/>
+ </objectgroup>	
+ <objectgroup name="rectangle2" width="25" height="15">
+  <object id="312" x="320" y="128" width="192" height="32"/>
+  <object id="313" x="320" y="224" width="192" height="32"/>
+ </objectgroup>
+</map>

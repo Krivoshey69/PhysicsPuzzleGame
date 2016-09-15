@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="168">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32" spacing="4" margin="4" tilecount="196" columns="14">
+  <image source="tmx/tile2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzjmKQkEQxnGD0QOoF1BQ0NjtAnoBTccTmLpr5K6Ra+ruDMy4jJkjCi4H8/+gHzSND0xMxIIf1U0X/ZXJ9K53vUYlERYicMAp3V1iJoU0MsgiZzDrvpOhv0cRM7iXUEYFVdRQV2b1s++BDDVL62100EUPfQyUGbmrJf8ZvZOl9SFGGGOCKWYGszFpdz0zjwKKyj7yeYkV1tjgD1t44BVzmk/ERcYXvnFGA020xB5+BJTd9jjhgCMuuCKIkPhnjgUS+MEvzLA8oX9gh3/YYH9Ct+IGi6k5UQ==
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object id="24" x="0" y="416" width="798" height="64"/>
+  <object id="17" name="LEFTWALL" x="1" y="1" width="5" height="480"/>
+  <object id="18" name="SKYWALL" x="3" y="0" width="800" height="5"/>
+  <object id="19" name="RIGHTWALL" x="795" y="3" width="5" height="480"/>
+ </objectgroup>
+ <objectgroup name="rectangle2Static" width="25" height="15">
+  <object id="156" x="287" y="383" width="192" height="32"/>
+ </objectgroup>
+ <objectgroup name="object3" width="25" height="15">
+  <object id="157" x="79" y="128" width="192" height="64"/>
+ </objectgroup>
+ <objectgroup name="apple2" width="25" height="15">
+  <object id="158" x="144" y="96" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="box1Static2" width="25" height="15">
+  <object id="159" x="272" y="128" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="box1Density" width="25" height="15">
+  <object id="160" x="352" y="320" width="64" height="64"/>
+  <object id="166" x="351" y="128" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="rectangle1" width="25" height="15">
+  <object id="162" x="287" y="288" width="128" height="32"/>
+  <object id="163" x="351" y="256" width="128" height="32"/>
+  <object id="164" x="286" y="224" width="128" height="32"/>
+  <object id="165" x="352" y="192" width="128" height="32"/>
+ </objectgroup>
+ 
+</map>

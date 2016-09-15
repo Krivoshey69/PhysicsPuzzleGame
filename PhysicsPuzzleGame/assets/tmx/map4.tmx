@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="155">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32" spacing="4" margin="4" tilecount="196" columns="14">
+  <image source="tmx/tile2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzrkKAjEQgOEt1AdQX8Cz9Ww9wTSesGk8W8/Wp9IX0KfzD0QIQ3ax2UZ24GMyYSaTIEgjjf+IOyaWQgllp66hLmZkbwXViF63P4SOqX0zDTTRQhsddH/YId+O2mH00McAQ4ww9uxw3ww9u75ZzhhTzDDHAkusxD+U5xx3p6y1rU3eYIsd9jiIf2jPOe5OW0dbm3zCGRdcccMDT2SRSyBn8MIbBRQTyHl8AC5NJ40=
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object id="24" x="0" y="416" width="798" height="64"/>
+  <object id="17" name="LEFTWALL" x="1" y="1" width="5" height="480"/>
+  <object id="18" name="SKYWALL" x="3" y="0" width="800" height="5"/>
+  <object id="19" name="RIGHTWALL" x="795" y="3" width="5" height="480"/>
+ </objectgroup>
+ <layer name="Слой тайлов 2" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztz7cNQlEQRUFawabYFE+GJ8NDhqcqTBuYwpgOSF6AxL/SpHu0sVi0aP+7OAmSpEiTCdzIkiNPgSKlwI0yFarUqNMI3GjToUuPPoMAd5esWDNmwpQZcxY0afHkxZsbdy5cvzSOnDjzYMOWHXsODBkF+OdX9gG62xK8
+  </data>
+ </layer>
+ <objectgroup name="rectangle2Static" width="25" height="15">
+  <object id="129" x="287" y="384" width="192" height="32"/>
+ </objectgroup>
+ <objectgroup name="box1Density" width="25" height="15">
+  <object id="130" x="351" y="320" width="64" height="64"/>
+  <object id="132" x="352" y="224" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="rectangle1" width="25" height="15">
+  <object id="147" x="351" y="288" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup name="apple2" width="25" height="15">
+  <object id="148" x="368" y="192" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="object2" width="25" height="15">
+  <object id="153" x="511" y="95" width="192" height="64"/>
+ </objectgroup>
+ <objectgroup name="circle" width="25" height="15">
+  <object id="154" x="606" y="31" width="64" height="64"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32" nextobjectid="450">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32" spacing="4" margin="4" tilecount="196" columns="14">
+  <image source="tmx/tile2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Слой тайлов 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztz7lOAlEUxnEK8AGUF8CtFdFWWRQaFlGnURSkAhG0UpYWt9a1RWUSSTRh6TDBEJ/M/03OJDcTWgoSbvLLl9xzz5kzDsf0TM9knjAiWl7iCmVUUEVNyyVbj+IR81jAorxbFvswJNX7Oq5xg1vc4X7E3Ij0WH0r8GIVPqxhXdj/4wGPeMIzXvCq7RIe0aNyA5vwI4AgQtouhpYNvOEdH2jClJqp7W7YMooY4khgB0mpH9h228I22uigi57UrJ0zOEFWu1NzDpHCEY6RlnoOn2jJN3exhwF+8Yeh1KydSzjHhXan5uRxigLOUJT6F77hwswY0ok+fjAH9xhyFv9BLzuv
+  </data>
+ </layer>
+ <objectgroup name="object" width="25" height="15">
+  <object id="24" x="0" y="416" width="798" height="64"/>
+  <object id="17" name="LEFTWALL" x="1" y="1" width="5" height="480"/>
+  <object id="18" name="SKYWALL" x="3" y="0" width="800" height="5"/>
+  <object id="19" name="RIGHTWALL" x="795" y="3" width="5" height="480"/>
+ </objectgroup>
+ <objectgroup name="rectangle2" width="25" height="15">
+  <object id="418" x="480" y="320" width="192" height="32"/>
+ </objectgroup>
+ <objectgroup name="rectangleStone" width="25" height="15">
+  <object id="423" x="449" y="96" width="128" height="32"/>
+ </objectgroup>
+ <objectgroup name="circle" width="25" height="15">
+  <object id="424" x="481" y="32" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="apple2" width="25" height="15">
+  <object id="425" x="640" y="288" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="circleStatic" width="25" height="15">
+  <object id="427" x="544" y="352" width="64" height="64"/>
+ </objectgroup>
+ <layer name="Слой тайлов 2" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRCw4C8WEgPjLQDqEyAADpfwJJ
+  </data>
+ </layer>
+ <objectgroup name="box1Density" width="25" height="15">
+  <object id="428" x="480" y="352" width="64" height="64"/>
+  <object id="429" x="608" y="352" width="64" height="64"/>
+  <object id="449" x="64" y="352" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="rectangle2Static" width="25" height="15">
+  <object id="446" x="128" y="384" width="192" height="32"/>
+ </objectgroup>
+</map>
